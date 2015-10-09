@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetLog</string>
+    <string name="action_settings">说明</string>
+    <string name="menu">查看最后抓取的log</string>
+    <string name="text">还没有抓到LOG!</string>
+    <string name="text2">屏蔽按钮</string>
+    <string name="title_activity_show_log">ShowLogActivity</string>
+
+</resources>

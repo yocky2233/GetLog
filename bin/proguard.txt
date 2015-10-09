@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:22
+-keep class com.zf.getlog.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.zf.showlog.ShowLogActivity { <init>(...); }
+
