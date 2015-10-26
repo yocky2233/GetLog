@@ -46,10 +46,13 @@ public class baseAdapter  extends BaseAdapter {
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
+		// position就是位置从0开始，convertView是Spinner,ListView中每一项要显示的view
+		//通常return 的view也就是convertView
+		//parent就是父窗体了，也就是Spinner,ListView,GridView了.
 		ViewHolder holder = null;
 		if (convertView == null) {
 			holder = new ViewHolder();
-			convertView = mInflater.inflate(R.layout.list_item, null);
+			convertView = mInflater.inflate(R.layout.list_item, null);  //自定义的布局
 			holder.log_view = (TextView) convertView
 					.findViewById(R.id.textView1);
 			convertView.setTag(holder);
