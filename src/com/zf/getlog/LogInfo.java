@@ -45,9 +45,9 @@ public class LogInfo implements Runnable {
 	public void run() {
 		
 		if (getRootAhth()) {  // (!new File("/system/bin/su").exists())&& (!new File("/system/xbin/su").exists())
-			runing = new String[] { "su", "-c", "logcat -v time" };
+			System.out.println("手机root了");
 		} else {
-			runing = new String[] {"logcat", "-v", "time"};
+			System.out.println("手机没有root");
 		}
 		FileOutputStream fos = null;
 
